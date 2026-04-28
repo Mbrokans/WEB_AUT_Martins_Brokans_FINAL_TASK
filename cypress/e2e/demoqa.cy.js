@@ -16,7 +16,7 @@ describe('demoqa tasks', () => {
       BasePage.date.contains(28).click();
       BasePage.subjectInput.click().type('Economics');
       BasePage.hobbyButton.click();
-      cy.get('input[type=file]').selectFile('C:\\Software_automation\\WEB_AUT_YOURFIRSTNAME_YOURLASTNAME_FINAL_TASK\\files\\file.json');
+      cy.get('input[type=file]').selectFile('C:\\Software_automation\\WEB_AUT_YOURFIRSTNAME_YOURLASTNAME_FINAL_TASK\\files\\file.jpg');
       BasePage.StateButton.click();
       cy.contains('NCR').click();
       BasePage.cityButton.click();
